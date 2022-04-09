@@ -1,14 +1,14 @@
-#include <stdio.h> 
+#include <stdio.h>
 /**
+ *main - Entry point
  *
- *main - Entry point        
- *Return: Always 0 (Success)
+ *Return: Always 0 (success)
  */
 int main(void)
 {
 char reversed_letter;
-for (reversed_letter = 'z'; reversed_letter >= 'a'; reversed_letter==) 
-putchar(reversed_letter); 
+for (reversed_letter = 'z'; reversed_letter >= 'a'; reversed_letter--)
+putchar(reversed_letter);
 putchar('\n');
 return (0);
 }
